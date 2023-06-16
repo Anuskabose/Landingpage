@@ -1,0 +1,122 @@
+*{
+    margin:0%;
+    padding:0%;
+} 
+nav{
+    display: flex;
+    justify-content:center;
+    justify-content:space-around;
+    background-color:rgb(247, 24, 143);
+    font-size 30px;
+    color:aliceblue;
+    padding:18px;
+
+
+} 
+nav.list{
+    display:flex;
+
+}
+nav.list p{
+    mergin-inline: 11px;
+    margin-top: 8px;
+    font-size 30px;
+
+}
+nav i{
+    font-size:19px;
+    margin-top:8px;
+}
+.main img{
+    width: 100%;
+}
+.deal{
+    text-align:center;
+}
+.deal button{
+    width:320px;
+    height: 50px;
+    background-color: rgb(190, 21, 21);
+    color:white;
+    border-radius:6px;
+    border;
+    font-size: 22px;
+    margin-top: 55px;
+
+}
+.deal p{
+    margin-top:32px;
+    fontsize:22px; 
+}
+.pro{
+    display: flex;
+    justify-content:center;
+    justify-content:space-around;
+    text-align:center;
+    margin-top: 44px;
+}.pro .crd img{
+    width: 96%;
+    
+}
+
+
+.crd button{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    font-size 38px;
+ }
+ .crd img{
+    width: 23%;
+    margin-top: 33px;
+ } 
+ .duo{
+    display: flex;
+    justify-content:center;
+    justify-content:space-around;
+    text-align:center;
+    margin-top: 44px;
+}.duo .man img{
+    width: 96%;
+    
+}
+ .lip{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+
+ }
+ .lip img{
+    width: 23%;
+    margin-top: 33px;
+ } 
+
+ .container{
+    max-width: 1170px;
+    margin:auto;
+
+    }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #eb9aeb;
+    padding:70px 0;
+}
+.footer-col{
+    width:25%;
+    padding:0 15px;
+ }
+ .footer-col h4{
+    font-size:18px;
+    color:blue;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position:relative;
+    
+ }
